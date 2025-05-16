@@ -9,8 +9,8 @@
 name: Build OpenWrt with ImageBuilder
 
 on:
-  schedule:
-    - cron: '0 3 * * 5'
+  #schedule:
+   # - cron: '0 3 * * 5'
   repository_dispatch:
   workflow_dispatch:
     inputs:
